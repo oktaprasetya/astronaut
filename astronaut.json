@@ -1,74 +1,100 @@
-[
-  {
-    "id": 1,
-    "title": "GKS Scholarship Masterclass",
-    "description": "Complete guide to ace the Global Korea Scholarship application and interview process.",
-    "category": "GKS",
-    "price": 49,
-    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
+{
+  "courses": [
+    {
+      "id": "course1",
+      "title": "LPDP Scholarship Preparation",
+      "description": "Complete guide to prepare for LPDP scholarship application process",
+      "category": "LPDP",
+      "price": 0,
+      "image": "https://example.com/course1.jpg",
+      "level": "Intermediate",
+      "tutor": "tutor1",
+      "syllabus": [
+        {
+          "meeting": 1,
+          "topic": "Introduction to LPDP",
+          "duration": "90 minutes",
+          "description": "Learn about LPDP scholarship requirements and process",
+          "resources": ["Slide 1.pdf", "Video 1.mp4"],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q1",
+                "text": "What is the minimum GPA for LPDP?",
+                "options": ["2.75", "3.00", "3.25", "3.50"],
+                "correct": 1
+              }
+            ]
+          }
+        }
+      ],
+      "approved": true,
+      "enrolled_students": 150,
+      "rating": 4.8
+    }
+  ],
+  "tutors": [
+    {
+      "id": "tutor1",
+      "name": "John Doe",
+      "bio": "LPDP awardee with 5 years of mentoring experience",
+      "expertise": ["Scholarship Preparation", "Interview Skills"],
+      "image": "https://example.com/tutor1.jpg",
+      "courses": ["course1", "course2"],
+      "commission_rate": 0.7,
+      "approved": true
+    }
+  ],
+  "students": [
+    {
+      "id": "student1",
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "password": "pass123",
+      "enrolled_courses": [
+        {
+          "course_id": "course1",
+          "progress": 30,
+          "last_accessed": "2023-10-15",
+          "completed": false
+        }
+      ],
+      "certificates": []
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin1",
+      "name": "Super Admin",
+      "email": "admin@lms.id",
+      "password": "adminpass"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enroll1",
+      "student_id": "student1",
+      "course_id": "course1",
+      "date": "2023-10-01",
+      "amount_paid": 0,
+      "completed": false
+    }
+  ],
+  "reports": {
+    "sales": [
+      {"month": "2023-01", "amount": 1200000},
+      {"month": "2023-02", "amount": 1500000}
+    ],
+    "commissions": [
+      {"tutor_id": "tutor1", "month": "2023-01", "amount": 840000, "paid": true}
+    ]
   },
-  {
-    "id": 2,
-    "title": "IELTS Band 8 Guaranteed",
-    "description": "Strategies and practice materials to achieve 8+ in all IELTS sections.",
-    "category": "IELTS",
-    "price": 39,
-    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 3,
-    "title": "Working Holiday Visa Guide",
-    "description": "Everything you need to know to successfully apply for a WHV in Australia.",
-    "category": "WHV",
-    "price": 29,
-    "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 4,
-    "title": "IBMIA Scholarship Prep",
-    "description": "Specialized preparation for the IBMIA scholarship program.",
-    "category": "Hema",
-    "price": 45,
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 5,
-    "title": "NEXT Program Fundamentals",
-    "description": "Essential skills for the Jun NEXT scholarship program.",
-    "category": "Jun",
-    "price": 0,
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 6,
-    "title": "Chevening Essay Mastery",
-    "description": "Craft winning essays for your Chevening Scholarship application.",
-    "category": "Chevening",
-    "price": 45,
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 7,
-    "title": "Australia Awards Success",
-    "description": "Step-by-step guidance for Australia Awards Scholarship applications.",
-    "category": "AAS",
-    "price": 42,
-    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  },
-  {
-    "id": 8,
-    "title": "Korean Language for GKS",
-    "description": "Essential Korean language skills required for GKS scholarship.",
-    "category": "GKS",
-    "price": 35,
-    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-    "link": "#"
-  }
-]
+  "pending_courses": [
+    {
+      "id": "course_temp1",
+      "title": "New Course Proposal",
+      "tutor": "tutor1",
+      "status": "pending"
+    }
+  ]
+}
