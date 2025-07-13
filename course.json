@@ -3,100 +3,63 @@
     {
       "id": "course1",
       "title": "LPDP Celestial Inclusive Program",
-      "description": "Complete guide to prepare for LPDP scholarship application process",
+      "description": "Complete preparation for LPDP scholarship from application to interview",
       "category": "LPDP",
       "price": 2399000,
       "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
       "level": "Beginner",
-      "tutor": "tutor1",
+      "rating": 5.0,
+      "tutor": "Hypernova1",
       "syllabus": [
         {
-          "meeting": 1,
-          "topic": "Introduction to LPDP",
+          "topic": "Understanding LPDP Requirements",
           "duration": "90 minutes",
-          "description": "Learn about LPDP scholarship requirements and process",
-          "resources": ["Slide 1.pdf", "Video 1.mp4"],
-          "quiz": {
-            "questions": [
-              {
-                "id": "q1",
-                "text": "What is the minimum GPA for LPDP?",
-                "options": ["2.75", "3.00", "3.25", "3.50"],
-                "correct": 1
-              }
-            ]
-          }
+          "description": "Learn about all LPDP requirements and selection criteria",
+          "resources": ["LPDP_Guidebook.pdf"]
         }
       ],
-      "approved": true,
-      "enrolled_students": 150,
-      "rating": 4.8
+      "approved": true
     }
   ],
   "tutors": [
     {
-      "id": "tutor1",
-      "name": " Siti Azri Ulmi Ramadhanty",
+      "id": "Hypernova1",
       "username": "Hypernova1",  
-      "password": "password123", 
-      "bio": "LPDP awardee with 5 years of mentoring experience",
+      "password": "tutor1234",    
+      "name": " Siti Azri Ulmi Ramadhanty",
+      "bio": "LPDP awardee with 5 years of mentoring experience...",
       "expertise": ["Scholarship Preparation", "Interview Skills"],
-      "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/03-01-2025/IMG_0147.jpeg",
-      "courses": ["course1", "course2"],
+      "image": "https://example.com/tutor1.jpg",
+      "courses": ["course1"],
       "commission_rate": 0.7,
+      "approved": true
+    },
+    {
+      "id": "tutor2",
+      "username": "siti_rahman",  
+      "password": "siti7890",   
+      "name": "Siti Rahman, M.Sc.",
+      "bio": "GKS scholarship expert...",
+      "expertise": ["GKS Application", "Korea Study"],
+      "image": "https://example.com/tutor2.jpg",
+      "courses": [],
+      "commission_rate": 0.6,
       "approved": true
     }
   ],
   "students": [
     {
       "id": "student1",
-      "name": "Budi Santoso",
-      "email": "budi@example.com",
-      "password": "pass123",
-      "enrolled_courses": [
-        {
-          "course_id": "course1",
-          "progress": 30,
-          "last_accessed": "2023-10-15",
-          "completed": false
-        }
-      ],
-      "certificates": []
+      "username": "budi123",
+      "password": "studentpass",
+      "enrolled_courses": ["course1"]
     }
   ],
   "admins": [
     {
       "id": "admin1",
-      "name": "Super Admin",
-      "email": "admin@lms.id",
-      "password": "adminpass"
-    }
-  ],
-  "enrollments": [
-    {
-      "id": "enroll1",
-      "student_id": "student1",
-      "course_id": "course1",
-      "date": "2023-10-01",
-      "amount_paid": 0,
-      "completed": false
-    }
-  ],
-  "reports": {
-    "sales": [
-      {"month": "2023-01", "amount": 1200000},
-      {"month": "2023-02", "amount": 1500000}
-    ],
-    "commissions": [
-      {"tutor_id": "tutor1", "month": "2023-01", "amount": 840000, "paid": true}
-    ]
-  },
-  "pending_courses": [
-    {
-      "id": "course_temp1",
-      "title": "New Course Proposal",
-      "tutor": "tutor1",
-      "status": "pending"
+      "username": "superadmin",
+      "password": "admin1234"
     }
   ]
 }
