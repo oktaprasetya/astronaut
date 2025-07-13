@@ -1,0 +1,24 @@
+[
+  {
+    "id": "course1",
+    "title": "Web Development Dasar",
+    "tutor": "John Doe",
+    "price": 299000,
+    "level": "Beginner",
+    "tutor_image": "https://example.com/tutor.jpg",
+    "tutor_info": {
+      "name": "John Doe",
+      "bio": "Full-stack developer dengan 10 tahun pengalaman",
+      "expertise": ["HTML", "CSS", "JavaScript"]
+    },
+    "syllabus": [
+      {
+        "meeting": 1,
+        "topic": "Pengenalan HTML",
+        "duration": "90 menit",
+        "description": "Materi dasar tentang HTML",
+        "resources": ["slide.pdf", "video.mp4"]
+      }
+    ]
+  }
+]
