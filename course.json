@@ -1,24 +1,100 @@
-[
-  {
-    "id": "course1",
-    "title": "Web Development Dasar",
-    "tutor": "John Doe",
-    "price": 299000,
-    "level": "Beginner",
-    "tutor_image": "https://example.com/tutor.jpg",
-    "tutor_info": {
+{
+  "courses": [
+    {
+      "id": "course1",
+      "title": "LPDP Scholarship Preparation",
+      "description": "Complete guide to prepare for LPDP scholarship application process",
+      "category": "LPDP",
+      "price": 0,
+      "image": "https://example.com/course1.jpg",
+      "level": "Intermediate",
+      "tutor": "tutor1",
+      "syllabus": [
+        {
+          "meeting": 1,
+          "topic": "Introduction to LPDP",
+          "duration": "90 minutes",
+          "description": "Learn about LPDP scholarship requirements and process",
+          "resources": ["Slide 1.pdf", "Video 1.mp4"],
+          "quiz": {
+            "questions": [
+              {
+                "id": "q1",
+                "text": "What is the minimum GPA for LPDP?",
+                "options": ["2.75", "3.00", "3.25", "3.50"],
+                "correct": 1
+              }
+            ]
+          }
+        }
+      ],
+      "approved": true,
+      "enrolled_students": 150,
+      "rating": 4.8
+    }
+  ],
+  "tutors": [
+    {
+      "id": "tutor1",
       "name": "John Doe",
-      "bio": "Full-stack developer dengan 10 tahun pengalaman",
-      "expertise": ["HTML", "CSS", "JavaScript"]
-    },
-    "syllabus": [
-      {
-        "meeting": 1,
-        "topic": "Pengenalan HTML",
-        "duration": "90 menit",
-        "description": "Materi dasar tentang HTML",
-        "resources": ["slide.pdf", "video.mp4"]
-      }
+      "bio": "LPDP awardee with 5 years of mentoring experience",
+      "expertise": ["Scholarship Preparation", "Interview Skills"],
+      "image": "https://example.com/tutor1.jpg",
+      "courses": ["course1", "course2"],
+      "commission_rate": 0.7,
+      "approved": true
+    }
+  ],
+  "students": [
+    {
+      "id": "student1",
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "password": "pass123",
+      "enrolled_courses": [
+        {
+          "course_id": "course1",
+          "progress": 30,
+          "last_accessed": "2023-10-15",
+          "completed": false
+        }
+      ],
+      "certificates": []
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin1",
+      "name": "Super Admin",
+      "email": "admin@lms.id",
+      "password": "adminpass"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enroll1",
+      "student_id": "student1",
+      "course_id": "course1",
+      "date": "2023-10-01",
+      "amount_paid": 0,
+      "completed": false
+    }
+  ],
+  "reports": {
+    "sales": [
+      {"month": "2023-01", "amount": 1200000},
+      {"month": "2023-02", "amount": 1500000}
+    ],
+    "commissions": [
+      {"tutor_id": "tutor1", "month": "2023-01", "amount": 840000, "paid": true}
     ]
-  }
-]
+  },
+  "pending_courses": [
+    {
+      "id": "course_temp1",
+      "title": "New Course Proposal",
+      "tutor": "tutor1",
+      "status": "pending"
+    }
+  ]
+}
