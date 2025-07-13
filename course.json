@@ -2,12 +2,12 @@
   "courses": [
     {
       "id": "course1",
-      "title": "LPDP Scholarship Preparation",
+      "title": "LPDP Celestial Inclusive Program",
       "description": "Complete guide to prepare for LPDP scholarship application process",
       "category": "LPDP",
       "price": 0,
-      "image": "https://example.com/course1.jpg",
-      "level": "Intermediate",
+      "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
+      "level": "Beginner",
       "tutor": "tutor1",
       "syllabus": [
         {
