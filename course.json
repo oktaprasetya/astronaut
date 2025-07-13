@@ -7,9 +7,10 @@
       "category": "LPDP",
       "price": 2399000,
       "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
-      "level": "Beginner",a
+      "level": "Beginner",
       "rating": 5.0,
       "tutor": "Hypernova1",
+      "detail_url": "https://course.starshipeducation.com/p/hypernova.html",
       "syllabus": [
         {
           "topic": "Understanding LPDP Requirements",
