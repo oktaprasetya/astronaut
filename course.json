@@ -34,18 +34,6 @@
       "courses": ["course1"],
       "commission_rate": 0.7,
       "approved": true
-    },
-    {
-      "id": "tutor2",
-      "username": "siti_rahman",  
-      "password": "siti7890",   
-      "name": "Siti Rahman, M.Sc.",
-      "bio": "GKS scholarship expert...",
-      "expertise": ["GKS Application", "Korea Study"],
-      "image": "https://example.com/tutor2.jpg",
-      "courses": [],
-      "commission_rate": 0.6,
-      "approved": true
     }
   ],
   "students": [
