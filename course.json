@@ -17,14 +17,14 @@
       "created_at": "2025-01-01T00:00:00Z",
       "last_login": "2025-07-25T10:15:00Z",
       "permissions": ["*"],
-      "spreadsheet_id": "1XyZ..." // ID Spreadsheet Superadmin
+      "spreadsheet_id": "1XyZ..." 
     }
   ],
   "tutors": [
     {
       "id": "tutor1",
       "username": "hypernova1",
-      "password": "tutor1234", // Password di-hash
+      "password": "tutor1234", 
       "name": "Siti Azri Ulmi Ramadhanty",
       "email": "azri@starship.com",
       "phone": "+628123456789",
@@ -44,7 +44,7 @@
     {
       "id": "student1",
       "username": "budi123",
-      "password": "$2a$10$XyZ...", // Password di-hash
+      "password": "$2a$10$XyZ...",
       "name": "Budi Santoso",
       "email": "budi@example.com",
       "phone": "+628987654321",
