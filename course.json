@@ -5,128 +5,72 @@
       "tutor_id": "Hypernova1",
       "title": "LPDP Celestial Inclusive Program",
       "category": "LPDP",
-      "description": "Complete preparation for LPDP scholarship from application to interview",
+      "description": "Complete preparation for LPDP scholarship from application to interview. ",
       "price": 2399000,
-      "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
-      "duration": "8 weeks",
+      "image_url": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
+      "duration": "8 Weeks",
       "level": "Beginner",
-      "language": "Indonesian",
-      "learning_outcomes": [
-        "Memahami seluruh persyaratan LPDP",
-        "Menguasai teknik penulisan esai yang efektif",
-        "Mempersiapkan dokumen aplikasi yang kompetitif"
-      ],
-      "requirements": [
-        "Basic English proficiency",
-        "S1/S2 degree atau sedang menempuh"
-      ],
+      "language": "English",
+      "learning_outcomes": [],
+      "requirements": [],
+      "syllabus_json": "[\n  {\n    \"topic\": \"Understanding LPDP Requirements\",\n    \"duration\": \"90 minutes\",\n    \"description\": \"Learn about all LPDP requirements and selection criteria\",\n    \"resources\": [\"LPDP_Guidebook.pdf\"]\n  },\n  {\n    \"topic\": \"Essay Writing Workshop\",\n    \"duration\": \"120 minutes\",\n    \"description\": \"Hands-on session for crafting winning essays\",\n    \"resources\": [\"Essay_Template.docx\", \"Sample_Essays.zip\"]\n  }\n]",
+      "approved": true,
+      "approved_by": "admin1",
+      "approved_at": "15/07/2025 10:30:00Z",
+      "created_at": "2025-06-01T08:00:00Z",
+      "updated_at": "2025-06-01T08:00:00Z",
+      "detail_url": "https://course.starshipeducation.com/2025/07/lpdp-hypernovacelestia-azri.html",
+      "rating": 0,
+      "enrolled_students": 0,
       "syllabus": [
         {
           "topic": "Understanding LPDP Requirements",
           "duration": "90 minutes",
           "description": "Learn about all LPDP requirements and selection criteria",
-          "resources": ["LPDP_Guidebook.pdf"]
+          "resources": [
+            "LPDP_Guidebook.pdf"
+          ]
         },
         {
           "topic": "Essay Writing Workshop",
           "duration": "120 minutes",
           "description": "Hands-on session for crafting winning essays",
-          "resources": ["Essay_Template.docx", "Sample_Essays.zip"]
+          "resources": [
+            "Essay_Template.docx",
+            "Sample_Essays.zip"
+          ]
         }
-      ],
-      "approved": true,
-      "approved_by": "admin1",
-      "approved_at": "2025-07-15T10:30:00Z",
-      "rejected": false,
-      "rejected_reason": null,
-      "rejected_at": null,
-      "created_at": "2025-06-01T08:00:00Z",
-      "updated_at": "2025-07-15T10:30:00Z",
-      "detail_url": "https://course.starshipeducation.com/2025/07/lpdp-hypernovacelestia-azri.html",
-      "rating": 5.0,
-      "enrolled_students": 42
-    }
-  ],
-  "tutors": [
+      ]
+    },
     {
-      "id": "Hypernova1",
-      "name": "Siti Azri Ulmi Ramadhanty",
-      "email": "azri@starshipeducation.com",
-      "phone": "+628123456789",
-      "specialization": "Scholarship Preparation",
-      "bio": "LPDP awardee with 5 years of mentoring experience. Successfully guided 100+ students to get scholarships.",
-      "image": "https://astronaut.starshipeducation.com/public/uploads/main/files/03-01-2025/IMG_0147.jpeg",
-      "expertise": "LPDP,Interview Preparation,Essay Writing",
-      "approved": true,
-      "approved_by": "admin1",
-      "approved_at": "2025-01-15T09:00:00Z",
-      "created_at": "2025-01-01T08:00:00Z",
-      "username": "Hypernova1",
-      "password": "tutor1234"
-    }
-  ],
-  "students": [
-    {
-      "id": "student1",
-      "name": "Budi Santoso",
-      "email": "budi@example.com",
-      "phone": "+628987654321",
-      "institution": "Universitas Indonesia",
-      "created_at": "2025-07-10T14:25:00Z",
-      "last_active": "2025-07-20T08:45:00Z",
-      "username": "budi123",
-      "password": "studentpass"
-    }
-  ],
-  "admins": [
-    {
-      "id": "admin1",
-      "username": "superadmin",
-      "password": "admin1234",
-      "name": "Admin Utama",
-      "email": "admin@starshipeducation.com",
-      "created_at": "2025-01-01T00:00:00Z",
-      "last_login": "2025-07-20T09:30:00Z"
-    }
-  ],
-  "enrollments": [
-    {
-      "id": "enroll1",
-      "student_id": "student1",
-      "course_id": "course1",
-      "enrolled_at": "2025-07-12T10:15:00Z",
-      "progress": 35,
-      "last_activity": "2025-07-19T15:20:00Z",
-      "completed": false,
-      "completed_at": null,
-      "rating": 5,
-      "rated_at": "2025-07-18T11:00:00Z"
-    }
-  ],
-  "payments": [
-    {
-      "id": "payment1",
-      "student_id": "student1",
-      "course_id": "course1",
-      "amount": 2399000,
-      "payment_method": "Bank Transfer",
-      "payment_date": "2025-07-12T10:05:00Z",
-      "verified": true,
-      "verified_by": "admin1",
-      "verified_at": "2025-07-12T11:30:00Z",
-      "invoice_number": "INV-2025-07-001"
-    }
-  ],
-  "commissions": [
-    {
-      "id": "commission1",
+      "id": "course2",
       "tutor_id": "Hypernova1",
-      "enrollment_id": "enroll1",
-      "amount": 1679300,
-      "status": "PAID",
-      "payment_date": "2025-07-15T00:00:00Z",
-      "paid_at": "2025-07-18T09:00:00Z",
-      "notes": "Commission for LPDP course enrollment"
+      "title": "LPDP Stellar Inclusive Program",
+      "category": "LPDP",
+      "description": "Unlocking Further Study Opportunities with the LPDP Scholarship.",
+      "price": 1799000,
+      "image_url": "",
+      "duration": "",
+      "level": "",
+      "language": "",
+      "learning_outcomes": [],
+      "requirements": [],
+      "syllabus_json": "",
+      "approved": false,
+      "approved_by": "",
+      "approved_at": "",
+      "created_at": "",
+      "updated_at": "",
+      "detail_url": "",
+      "rating": "",
+      "enrolled_students": "",
+      "syllabus": []
     }
-  ]
+  ],
+  "tutors": [],
+  "students": [],
+  "enrollments": [],
+  "payments": [],
+  "commissions": [],
+  "admins": []
 }
