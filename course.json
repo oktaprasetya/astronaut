@@ -1,76 +1,150 @@
 {
+  "metadata": {
+    "system": "Starship LMS",
+    "version": "1.0.0",
+    "last_updated": "2025-07-25T14:30:00Z",
+    "author": "Starship Education Team"
+  },
+  "admins": [
+    {
+      "id": "admin1",
+      "username": "superadmin",
+      "password": "admin1234", 
+      "name": "Admin Utama",
+      "email": "admin@starship.com",
+      "role": "superadmin",
+      "is_active": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "last_login": "2025-07-25T10:15:00Z",
+      "permissions": ["*"],
+      "spreadsheet_id": "1XyZ..." // ID Spreadsheet Superadmin
+    }
+  ],
+  "tutors": [
+    {
+      "id": "tutor1",
+      "username": "hypernova1",
+      "password": "tutor1234", // Password di-hash
+      "name": "Siti Azri Ulmi Ramadhanty",
+      "email": "azri@starship.com",
+      "phone": "+628123456789",
+      "specialization": "Scholarship Preparation",
+      "bio": "LPDP awardee with 5+ years experience...",
+      "image": "https://starship.com/tutors/azri.jpg",
+      "expertise": ["LPDP", "Essay Writing"],
+      "approved": true,
+      "approved_by": "admin1",
+      "approved_at": "2025-01-15T09:00:00Z",
+      "created_at": "2025-01-01T08:00:00Z",
+      "spreadsheet_id": "1Yna4jC6JAV6OAUrnQl1OD2Y5c1fr6f_6iFVGox_9Guk",
+      "commission_rate": 0.7
+    }
+  ],
+  "students": [
+    {
+      "id": "student1",
+      "username": "budi123",
+      "password": "$2a$10$XyZ...", // Password di-hash
+      "name": "Budi Santoso",
+      "email": "budi@example.com",
+      "phone": "+628987654321",
+      "institution": "Universitas Indonesia",
+      "assigned_tutor_id": "tutor1",
+      "created_at": "2025-07-10T14:25:00Z",
+      "last_active": "2025-07-25T08:45:00Z",
+      "status": "active"
+    }
+  ],
   "courses": [
     {
       "id": "course1",
-      "tutor_id": "Hypernova1",
-      "title": "LPDP Celestial Inclusive Program",
+      "tutor_id": "tutor1",
+      "title": "LPDP Celestial Program",
       "category": "LPDP",
-      "description": "Complete preparation for LPDP scholarship from application to interview. ",
+      "description": "Complete LPDP scholarship preparation...",
       "price": 2399000,
-      "image_url": "https://astronaut.starshipeducation.com/public/uploads/main/files/24-02-2025/celestial.png",
-      "duration": "8 Weeks",
+      "image": "https://starship.com/courses/lpdp.jpg",
+      "duration": "8 weeks",
       "level": "Beginner",
-      "language": "English",
-      "learning_outcomes": [],
-      "requirements": [],
-      "syllabus_json": "[\n  {\n    \"topic\": \"Understanding LPDP Requirements\",\n    \"duration\": \"90 minutes\",\n    \"description\": \"Learn about all LPDP requirements and selection criteria\",\n    \"resources\": [\"LPDP_Guidebook.pdf\"]\n  },\n  {\n    \"topic\": \"Essay Writing Workshop\",\n    \"duration\": \"120 minutes\",\n    \"description\": \"Hands-on session for crafting winning essays\",\n    \"resources\": [\"Essay_Template.docx\", \"Sample_Essays.zip\"]\n  }\n]",
-      "approved": true,
-      "approved_by": "admin1",
-      "approved_at": "15/07/2025 10:30:00Z",
-      "created_at": "2025-06-01T08:00:00Z",
-      "updated_at": "2025-06-01T08:00:00Z",
-      "detail_url": "https://course.starshipeducation.com/2025/07/lpdp-hypernovacelestia-azri.html",
-      "rating": 0,
-      "enrolled_students": 0,
+      "language": "Indonesian",
+      "learning_outcomes": [
+        "Memahami persyaratan LPDP",
+        "Menguasai teknik penulisan esai"
+      ],
+      "requirements": [
+        "Basic English",
+        "S1/S2 degree"
+      ],
       "syllabus": [
         {
-          "topic": "Understanding LPDP Requirements",
-          "duration": "90 minutes",
-          "description": "Learn about all LPDP requirements and selection criteria",
-          "resources": [
-            "LPDP_Guidebook.pdf"
-          ]
-        },
-        {
-          "topic": "Essay Writing Workshop",
-          "duration": "120 minutes",
-          "description": "Hands-on session for crafting winning essays",
-          "resources": [
-            "Essay_Template.docx",
-            "Sample_Essays.zip"
-          ]
+          "week": 1,
+          "topic": "LPDP Requirements",
+          "duration": "90 mins",
+          "description": "Understand selection criteria",
+          "resources": ["guidebook.pdf"]
         }
-      ]
-    },
-    {
-      "id": "course2",
-      "tutor_id": "Hypernova1",
-      "title": "LPDP Stellar Inclusive Program",
-      "category": "LPDP",
-      "description": "Unlocking Further Study Opportunities with the LPDP Scholarship.",
-      "price": 1799000,
-      "image_url": "",
-      "duration": "",
-      "level": "",
-      "language": "",
-      "learning_outcomes": [],
-      "requirements": [],
-      "syllabus_json": "",
-      "approved": false,
-      "approved_by": "",
-      "approved_at": "",
-      "created_at": "",
-      "updated_at": "",
-      "detail_url": "",
-      "rating": "",
-      "enrolled_students": "",
-      "syllabus": []
+      ],
+      "approved": true,
+      "approved_by": "admin1",
+      "approved_at": "2025-07-15T10:30:00Z",
+      "created_at": "2025-06-01T08:00:00Z",
+      "updated_at": "2025-07-20T12:00:00Z",
+      "detail_url": "https://starship.com/courses/lpdp",
+      "rating": 4.9,
+      "enrolled_students": 42
     }
   ],
-  "tutors": [],
-  "students": [],
-  "enrollments": [],
-  "payments": [],
-  "commissions": [],
-  "admins": []
+  "enrollments": [
+    {
+      "id": "enroll1",
+      "student_id": "student1",
+      "course_id": "course1",
+      "tutor_id": "tutor1",
+      "enrolled_at": "2025-07-12T10:15:00Z",
+      "progress": 35,
+      "last_activity": "2025-07-25T15:20:00Z",
+      "completed": false,
+      "completed_at": null,
+      "rating": 5,
+      "rated_at": "2025-07-24T11:00:00Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment1",
+      "student_id": "student1",
+      "course_id": "course1",
+      "amount": 2399000,
+      "payment_method": "Bank Transfer",
+      "payment_date": "2025-07-12T10:05:00Z",
+      "verified": true,
+      "verified_by": "admin1",
+      "verified_at": "2025-07-12T11:30:00Z",
+      "invoice_number": "INV-2025-07-001"
+    }
+  ],
+  "commissions": [
+    {
+      "id": "commission1",
+      "tutor_id": "tutor1",
+      "enrollment_id": "enroll1",
+      "amount": 1679300,
+      "status": "PAID",
+      "payment_date": "2025-07-15",
+      "paid_at": "2025-07-18T09:00:00Z",
+      "notes": "Commission for LPDP enrollment"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log1",
+      "timestamp": "2025-07-25T14:25:00Z",
+      "user_id": "admin1",
+      "user_type": "admin",
+      "action": "course_approval",
+      "target_id": "course1",
+      "ip_address": "192.168.1.1",
+      "details": "Approved LPDP Course"
+    }
+  ]
 }
