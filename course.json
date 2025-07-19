@@ -82,6 +82,20 @@
           "duration": "90 mins",
           "description": "Understand selection criteria",
           "resources": ["guidebook.pdf"]
+        },
+        {
+          "week": 2,
+          "topic": "Essay Writing Techniques",
+          "duration": "120 mins",
+          "description": "Learn how to write compelling essays",
+          "resources": ["essay-template.docx", "examples.pdf"]
+        },
+        {
+          "week": 3,
+          "topic": "Interview Preparation",
+          "duration": "150 mins",
+          "description": "Mastering LPDP interview techniques",
+          "resources": ["interview-guide.pdf", "sample-questions.docx"]
         }
       ],
       "approved": true,
@@ -89,9 +103,53 @@
       "approved_at": "2025-07-15T10:30:00Z",
       "created_at": "2025-06-01T08:00:00Z",
       "updated_at": "2025-07-20T12:00:00Z",
-      "detail_url": "https://starship.com/courses/lpdp",
+      "detail_url": "https://starship.com/courses/lpdp-celestial-program",
       "rating": 4.9,
       "enrolled_students": 42
+    },
+    {
+      "id": "course2",
+      "tutor_id": "tutor1",
+      "title": "IELTS Mastery Program",
+      "category": "English Proficiency",
+      "description": "Comprehensive IELTS preparation covering all sections...",
+      "price": 1899000,
+      "image": "https://starship.com/courses/ielts.jpg",
+      "duration": "6 weeks",
+      "level": "Intermediate",
+      "language": "English",
+      "learning_outcomes": [
+        "Achieve band 7.0+ in all sections",
+        "Master time management strategies"
+      ],
+      "requirements": [
+        "Intermediate English level",
+        "Dedication to daily practice"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "IELTS Overview",
+          "duration": "120 mins",
+          "description": "Understanding test format and scoring",
+          "resources": ["test-format.pdf"]
+        },
+        {
+          "week": 2,
+          "topic": "Writing Task 1",
+          "duration": "180 mins",
+          "description": "Mastering academic writing for charts and graphs",
+          "resources": ["writing-task1-guide.pdf"]
+        }
+      ],
+      "approved": true,
+      "approved_by": "admin1",
+      "approved_at": "2025-06-20T14:00:00Z",
+      "created_at": "2025-05-10T08:00:00Z",
+      "updated_at": "2025-07-18T09:30:00Z",
+      "detail_url": "https://starship.com/courses/ielts-mastery",
+      "rating": 4.7,
+      "enrolled_students": 35
     }
   ],
   "enrollments": [
